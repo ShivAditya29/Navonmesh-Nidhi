@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194510949199",
+    "project_id": "navonmesh-nidhi",
+    "storage_bucket": "navonmesh-nidhi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194510949199:android:ea753424befc1db7d1933a",
+        "android_client_info": {
+          "package_name": "com.example.navonmeshnidhi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4U-_-IvQnVYoV5XJfJF2w9WyajAkw6XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for entering topic name and description -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blogo"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/topicNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter The Topic Here"
+        android:background="@drawable/edit_text_background"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/edit_text_background"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter Description"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/green"
+        android:layout_marginLeft="70dp"
+        android:text="Submit"
+        android:textSize="18dp"/>
+
+</LinearLayout>
